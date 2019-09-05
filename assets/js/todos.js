@@ -1,5 +1,5 @@
 $("ul").on("click","li",function(){
-	$(this).toggleClass("completed");
+	$(this).toggleClass("completed-task");
 });
 
 $("ul").on("click","span",function(event){
